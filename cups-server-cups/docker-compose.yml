@@ -17,9 +17,9 @@ services:
     ports:
       - "631:631"
     environment:
-      CUPSADMIN: admin
-      CUPSPASSWORD: password
-      TZ: Asia/Kolkata
+      CUPSADMIN: admin-chris
+      CUPSPASSWORD: Riverside-Moocher0-Civic
+      TZ: America/Toronto
     volumes:
       # Persist CUPS configuration and added printers across restarts
       - ${APP_DATA_DIR}/data/cups:/etc/cups
